@@ -30,6 +30,7 @@ Run tests:
 >/auth/login/ (POST)
 >- username
 >- password
+
 ####Creating restaurant and employee
 >/auth/registration/ (POST)
 >- username
@@ -39,14 +40,18 @@ Run tests:
 >- is_restaurant
 >>Optional verification:/auth/registration/verify-email/ (POST)
 >>- key
+
 ####Uploading menu for restaurant 
 > /restaurant/menus/ (POST)
 >- name
+
 ####Getting current day menu
 > /restaurant/restaurant-menus/ (GET)
+
 ####Voting for restaurant menu
 > /restaurant/restaurant-menus/ (POST)
 >- menu_id
+
 ####Getting results for the current day
 > Execute a django management command to update a result in the database.
 > Admin can check the result on admin panel.
@@ -56,6 +61,7 @@ Run tests:
 > API to get a winning restaurant is
 >
 > /restaurant/winning-restaurant/ (GET)
+
 ####Logout 
 > /auth/logout/ (GET)
 
