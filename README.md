@@ -1,4 +1,5 @@
 # restaurant_management
+Problem statement: https://docs.google.com/document/d/1n_J66ShL_YdrogQx0NSvCgLDW5J4Udstb6A4ucKmbso/edit?usp=sharing
 This application helps a company to make a decision on lunch place. Each restaurant uploads menus using the system every day over API and employees vote for the menu before leaving for lunch. 
 
 ###Development
